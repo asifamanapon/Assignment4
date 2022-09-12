@@ -14,5 +14,5 @@ function isJavaScriptFile(string) {
     }
 }
 
-var stringInput = 'aliyaBhat.js'
-var stringcheck = isJavaScriptFile(stringInput);
+let stringInput = 'aliyaBhat.js'
+let stringcheck = isJavaScriptFile(stringInput);

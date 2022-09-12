@@ -7,7 +7,7 @@ function publicBusFare(passengers) {
                 remainingPassengers = remainingPassengers % 11;
                 if (remainingPassengers == 0) {
                    
-                    return 'We have no passengers in Public Bus' ;
+                    return 'We have no passengers the in Public Bus' ;
                 }
                 
             }

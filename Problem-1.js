@@ -1,6 +1,6 @@
 function radianToDegree(radian) {
     if (typeof(radian) === 'number') {
-       var degree = radian * (180 / Math.PI);
+       let degree = radian * (180 / Math.PI);
         degree = degree.toFixed(2);
         degree = parseFloat(degree);
         console.log(degree);
@@ -12,5 +12,5 @@ function radianToDegree(radian) {
 
 
 }
-var inputNumber = 12;
-var inputRadian = radianToDegree(inputNumber);
+let inputNumber = 12;
+let inputRadian = radianToDegree(inputNumber);

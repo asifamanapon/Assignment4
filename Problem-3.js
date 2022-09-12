@@ -15,5 +15,5 @@ function oilPrice(dieselQuantity, petrolQuantity, octaneQuantity) {
     }
 }
 
-var functionCall = oilPrice(-343, -535, -343);
+let functionCall = oilPrice(1, 1, 1);
 console.log(functionCall);
